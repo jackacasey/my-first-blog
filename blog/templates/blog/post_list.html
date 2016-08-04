@@ -1,7 +1,8 @@
 {% load staticfiles %}
+
 <html>
     <head>
-        <title>Jacks blog</title>
+        <title>Jacks Site</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
@@ -12,7 +13,7 @@
     <body>
         <div>
 
-            <h1><a href="/">Jacks Blog</a></h1>
+            <h1><a href="/">Jacks Site</a></h1>
         </div>
 
         {% for post in posts %}
@@ -23,8 +24,8 @@
             </div>
         {% endfor %}
 
-        {% with name="World" greeting="Hello" %}
+        <!-- {% with name="World" greeting="Hello" %}
         <div>{{ greeting }} {{name}}!</div>
-        {% endwith %}
+        {% endwith %} -->
     </body>
 </html>
